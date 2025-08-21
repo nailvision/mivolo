@@ -1,5 +1,16 @@
 Copied from original src: https://github.com/WildChlamydia/MiVOLO
 
+## MiVOLO Output Structure
+
+MiVOLO output arrays follow: `[person_detections..., face_detections...]` - grouped by object type, not detection order.
+
+**Example:** `[person1_age, person2_age, face1_age, face2_age]`
+
+**With `with_persons=False`:** Person slots return `None` → `[None, None, face1_age, face2_age]`
+
+**With `disable_faces=False`:** Face slots return `None` → `person1_age, person2_age, None, None]`
+
+
 <div align="center">
 <p>
    <a align="center" target="_blank">
