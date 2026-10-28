@@ -1,3 +1,4 @@
+# Modified by Thea Care: removed pkg_resources dependency
 # MiVOLO 🚀, Apache-2.0
 
 from pathlib import Path

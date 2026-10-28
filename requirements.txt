@@ -1,3 +1,4 @@
+# Modified by Thea Care: updated ultralytics and timm, added omegaconf
 huggingface_hub
 ultralytics==8.3.50
 timm==0.9.7

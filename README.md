@@ -1,5 +1,13 @@
 Copied from original src: https://github.com/WildChlamydia/MiVOLO
 
+### Modifications in this copy
+
+- `mivolo/model/create_timm_model.py`: timm 0.9.7 compatibility
+- `mivolo/model/mivolo_model.py`: timm 0.9.7 compatibility (`pos_drop_rate`)
+- `requirements.txt`: updated ultralytics and timm, added omegaconf
+- `setup.py`: removed `pkg_resources` dependency, Apache 2.0 license metadata
+- `README.md`: this section and the output structure section below
+
 ## MiVOLO Output Structure
 
 MiVOLO output arrays follow: `[person_detections..., face_detections...]` - grouped by object type, not detection order.
@@ -405,7 +413,7 @@ This approach provides you with a model that maintains its original speed and on
 
 ## License
 
-Please, see [here](./license)
+Apache License 2.0, see [LICENSE](./LICENSE).
 
 
 ## Citing
