@@ -1,3 +1,4 @@
+# Modified by Thea Care: timm 0.9.7 compatibility
 """
 Code adapted from timm https://github.com/huggingface/pytorch-image-models
 
