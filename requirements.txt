@@ -1,7 +1,6 @@
-# Modified by Thea Care: updated ultralytics and timm, added omegaconf
+# Modified by Thea Care: lower bounds only, so thea-ai's lock file picks the exact versions; yt_dlp only for demo.py, install it by hand
 huggingface_hub
-ultralytics==8.3.50
-timm==0.9.7
-yt_dlp
+ultralytics>=8.3.50
+timm>=0.9.7
 lapx>=0.5.2
-omegaconf==2.3.0 # required by ultralytics yolo 'predict model=yolov8n.pt'
+omegaconf>=2.3.0 # required by ultralytics yolo 'predict model=yolov8n.pt'
